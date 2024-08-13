@@ -1,17 +1,14 @@
-import React from 'react'
-import "./App"
-import Calculator from './Components/Calculator'
-import BulbToggle from './Components/BulbToggle';
+import React from 'react';
+import "./App.css"
+import Stopwatch from './Components/Stopwatch';
 
 const App = () => {
   return (
    <>
-   <Calculator />
-   <BulbToggle /> 
+   <Stopwatch />
    </>
    
 
   )
 }
-
 export default App
